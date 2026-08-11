@@ -1,15 +1,14 @@
 import os, json, sys
 
-home = os.environ['USERPROFILE']
-base = os.path.join(home, 'Desktop', 'LazyFisher')
-app_dir = os.path.join(base, 'calculator-app')
+app_dir = os.path.dirname(os.path.abspath(__file__))
+db_dir = os.path.join(app_dir, '数据库')
 
 # Read region DB
-with open(os.path.join(base, '数据库', '渔场数据库.json'), 'r', encoding='utf-8-sig') as f:
+with open(os.path.join(db_dir, '渔场数据库.json'), 'r', encoding='utf-8-sig') as f:
     regions = json.load(f)
 
 # Read tackle
-with open(os.path.join(base, '数据库', 'tackle.json'), 'r', encoding='utf-8-sig') as f:
+with open(os.path.join(db_dir, '装备数据库.json'), 'r', encoding='utf-8-sig') as f:
     tackle = json.load(f)
 
 # recognition（识别度）为 0~1 值，缩放到 0~100 供公式使用
@@ -40,4 +39,3 @@ with open(out_path, 'w', encoding='utf-8') as f:
 
 print(f'Wrote {out_path} ({len(py)} bytes)')
 print(f'Regions: {len(regions)}, Hooks: {len(hooks)}, Lures: {len(lures)}, Baits: {len(baits)}')
-
