@@ -1,23 +1,22 @@
 import os, json, sys
 
 app_dir = os.path.dirname(os.path.abspath(__file__))
-db_dir = os.path.join(app_dir, '数据库')
+data_dir = os.path.join(app_dir, 'data')
 
 # Read region DB
-with open(os.path.join(db_dir, '渔场数据库.json'), 'r', encoding='utf-8-sig') as f:
+with open(os.path.join(data_dir, 'regions.json'), 'r', encoding='utf-8-sig') as f:
     regions = json.load(f)
 
 # Read tackle
-with open(os.path.join(db_dir, '装备数据库.json'), 'r', encoding='utf-8-sig') as f:
+with open(os.path.join(data_dir, 'tackle.json'), 'r', encoding='utf-8-sig') as f:
     tackle = json.load(f)
 
-# recognition（识别度）为 0~1 值，缩放到 0~100 供公式使用
-# single 平均 ≈0.32, double ≈0.37, treble ≈0.60（与帮助文档 §4.8 三本钩>双钩>单钩 一致）
+# recognition to 0~100 scale for scoring
+# single avg ~0.32, double ~0.37, treble ~0.60
 def _hook_vis(h):
     recog = h.get('recognition')
     if recog is not None:
         return round(recog * 100, 1)
-    # 极少数钩子可能缺失 recognition，按钩型给默认
     return {'treble': 60, 'double': 37, 'single': 32}.get(h.get('hook_type', 'single'), 32)
 hooks = [{'n':h['name'],'s':h.get('size'),'t':h.get('hook_type','single'),'v':_hook_vis(h),'lv':h.get('level_required',1)} for h in tackle.get('hooks',[])]
 lures = [{'n':l['name'],'s':l.get('size'),'t':l.get('lure_type'),'lv':l.get('level_required',1)} for l in tackle.get('lures',[])]
