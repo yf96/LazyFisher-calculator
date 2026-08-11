@@ -33,9 +33,9 @@ python build_data.py && python main.py
 
 ## 数据库结构
 
-项目依赖两个 JSON 数据库，位于 `../数据库/`（与 calculator-app 同级目录）。
+项目依赖两个 JSON 数据库，位于 `data/` 目录下。
 
-### 1. 渔场数据库 (`数据库/渔场数据库.json`)
+### 1. 渔场数据库 (`data/regions.json`)
 
 顶层是一个 JSON 对象，key 为渔场英文 ID，value 为渔场对象。
 
@@ -89,7 +89,7 @@ python build_data.py && python main.py
 
 **拟饵类型枚举**: `spoon` `topwater` `minnow` `crank` `jig` `softbait`
 
-### 2. 装备数据库 (`数据库/tackle.json`)
+### 2. 装备数据库 (`data/tackle.json`)
 
 ```json
 {
@@ -147,7 +147,7 @@ python build_data.py && python main.py
 
 ### 添加新渔场
 
-在 `渔场数据库.json` 顶层新增一个 key：
+在 `data/regions.json` 顶层新增一个 key：
 
 ```json
 "my_new_pond": {
@@ -182,7 +182,7 @@ python build_data.py && python main.py
 
 ### 添加新装备
 
-在 `tackle.json` 对应的数组（`hooks` / `lures` / `baits`）中追加一条，格式同上表。
+在 `data/tackle.json` 对应的数组（`hooks` / `lures` / `baits`）中追加一条，格式同上表。
 
 ### 构建验证
 
@@ -199,7 +199,7 @@ python build_data.py && python main.py
 游戏中的**自有船远航**会解锁专属鱼种和渔场。如果你有相关数据，欢迎贡献：
 
 1. Fork 本仓库
-2. 在 `渔场数据库.json` 中添加远航渔场（`t` 设为 `"船钓"`）
+2. 在 `data/regions.json` 中添加远航渔场（`t` 设为 `"船钓"`）
 3. 填入该航线出没的鱼种及其属性（嘴大小、水层、最佳饵类型等）
 4. 提交 Pull Request
 
@@ -210,9 +210,9 @@ python build_data.py && python main.py
 ## 构建流程
 
 ```
-数据库/渔场数据库.json ──┐
-                        ├── build_data.py ──→ main.py ──→ pyinstaller ──→ dist/xxx.exe
-数据库/tackle.json ─────┘
+data/regions.json ──┐
+                    ├── build_data.py ──→ main.py ──→ pyinstaller ──→ dist/xxx.exe
+data/tackle.json ───┘
 ```
 
 `build_data.py` 读取 JSON 源数据，精简为计算器需要的字段，注入 `main_template.py` 的占位符，输出 `main.py`。
