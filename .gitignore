@@ -1,0 +1,7 @@
+dist/
+build/
+__pycache__/
+*.pyc
+main.py
+*_backup*.py
+*_v*.py
