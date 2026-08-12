@@ -101,7 +101,7 @@ def select_best_bait(bait_type, mouth, lvl):
 
 ROD_CN = {'lure': '路亚', 'bottom': '底钓', 'iso': '矶竿', 'match': '赛竿'}
 ROD_REV = {'路亚': 'lure', '底钓': 'bottom', '矶竿': 'iso', '赛竿': 'match'}
-TYPE_CN = {'船钓': '船钓', '岸钓': '岸钓'}
+TYPE_CN = {'船钓': '船钓', '岸钓': '岸钓', '自有船': '自有船'}
 LAYER_CN = {'surface': '表层', 'mid': '中层', 'deep': '底层'}
 
 # ========== GUI ==========
@@ -365,8 +365,12 @@ class CalculatorApp:
                 c1 = tk.Frame(card, bg=bg)
                 c1.grid(row=row_idx, column=0, sticky='nsew', padx=gap, pady=3)
                 mk(c1, reg['n'], tg, bg).pack(fill='x')
-                mk(c1, f"Lv.{reg['lv']}", t3, bg).pack(fill='x')
-                mk(c1, TYPE_CN.get(reg['t'], reg['t']), t3, bg).pack(fill='x')
+                mk(c1, f"Lv.{reg['lv']} · {TYPE_CN.get(reg['t'], reg['t'])}", t3, bg).pack(fill='x')
+                # Row3: 自有船显示出现率，其余留空
+                if reg.get('t') == '自有船' and fish.get('ar') is not None:
+                    mk(c1, f"出现率 {fish['ar']}%", t3, bg).pack(fill='x')
+                else:
+                    mk(c1, '', t3, bg).pack(fill='x')
 
                 # === Col2: 饵 (3行) ===
                 c2 = tk.Frame(card, bg=bg)
