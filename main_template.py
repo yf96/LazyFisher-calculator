@@ -16,6 +16,7 @@ COLORS = {
     'thead': '#eef2f7',
     'warn': '#c62828',
     'hover': '#f7f9fc',
+    'ground': '#2e7d32',
 }
 
 # ========== EMBEDDED DATA ==========
@@ -61,6 +62,9 @@ def line_depth(d, fish_layer, rod_type):
         lo, hi = round(dd * 0.6), dd
     if rod_type in ('bottom', 'lure'):
         return None
+    # 线深最低 50，整体 +1（表层鱼下限输出 51；浅水区上下限都压到 51）
+    lo = max(lo, 50) + 1
+    hi = max(hi, 50) + 1
     return (lo, hi)
 
 LURE_ACTIONS = {
@@ -72,14 +76,21 @@ LURE_ACTIONS = {
     'softbait': ('底层跳动', '0.64m/s'),
 }
 
+# 拟饵类型→动作水层映射，水层匹配因子对齐油猴 rhoLayer：同层1.0 / 相邻0.7 / 隔层0.3 / 未知0.5
+LURE_LAYER = {'topwater': 'surface', 'spoon': 'mid', 'crank': 'mid', 'jig': 'deep', 'minnow': 'mid', 'softbait': 'deep'}
+def layer_factor(lure_type, fish_layer):
+    ll = LURE_LAYER.get(lure_type)
+    if not ll:
+        return 0.5
+    order = {'surface': 0, 'mid': 1, 'deep': 2}
+    d = abs(order[ll] - order[fish_layer])
+    return 1.0 if d == 0 else (0.7 if d == 1 else 0.3)
+
 def get_lure_action(lure_type, fish_layer):
     if lure_type not in LURE_ACTIONS:
         return ('-', '-', True)
     act, spd = LURE_ACTIONS[lure_type]
-    ok = not (
-        (lure_type == 'topwater' and fish_layer != 'surface') or
-        (lure_type in ('jig', 'softbait') and fish_layer != 'deep')
-    )
+    ok = layer_factor(lure_type, fish_layer) >= 1
     return (act, spd, ok)
 
 def select_best_bait(bait_type, mouth, lvl):
@@ -104,12 +115,21 @@ ROD_REV = {'路亚': 'lure', '底钓': 'bottom', '矶竿': 'iso', '赛竿': 'mat
 TYPE_CN = {'船钓': '船钓', '岸钓': '岸钓', '自有船': '自有船'}
 LAYER_CN = {'surface': '表层', 'mid': '中层', 'deep': '底层'}
 
+# ========== 打窝（帮助文档 §9.3 f_ground）==========
+# 默认窝点（岸钓）：活小鱼窝×5；纪元裂岬无窝点（已确认）；路亚不吃打窝；13种真饵饵型都可打窝
+GROUND_DEFAULT = {'黑礁断面': 5, '暴线礁·远浪台': 5, '天落库壁': 5, '王流海岬': 5, '渊门峡·岸投端': 5}
+GROUND_BAIT = 'small_fish'
+BAIT_CN = {'algae_paste': '藻饵', 'worm': '虫', 'corn': '玉米', 'grain': '谷物', 'grass': '草',
+           'insect': '昆虫', 'pellet': '颗粒', 'shrimp': '虾', 'snail': '螺', 'small_fish': '活小鱼',
+           'paste': '面团', 'crab': '蟹', 'shellfish': '贝'}
+BAIT_REV = {v: k for k, v in BAIT_CN.items()}
+
 # ========== GUI ==========
 class CalculatorApp:
     def __init__(self, root):
         self.root = root
-        root.title("LazyFisher 钓鱼计算器")
-        root.geometry("800x800")
+        root.title("LazyFisher 钓鱼计算器 v1.2.1")
+        root.geometry("688x1223")
         root.resizable(False, False)
         root.configure(bg=COLORS['bg'])
 
@@ -123,7 +143,7 @@ class CalculatorApp:
         self.fish_entry = tk.Entry(bar, textvariable=self.fish_var, font=('Microsoft YaHei', FONT_SIZE),
                                     width=16, relief='solid', bd=1, bg='white')
         self.fish_entry.pack(side='left', padx=3, pady=5)
-        self.fish_var.trace('w', lambda *a: self.on_input())
+        self.fish_var.trace('w', lambda *a: self.on_fish_change())
 
         tk.Label(bar, text="🎣", font=('', FONT_SIZE), bg=COLORS['card'], fg=COLORS['text2']).pack(side='left', padx=(12,3))
         self.rod_var = tk.StringVar(value='路亚')
@@ -138,6 +158,20 @@ class CalculatorApp:
                               width=5, relief='solid', bd=1, justify='center')
         lvl_entry.pack(side='left', padx=3)
         self.lvl_var.trace('w', lambda *a: self.on_input())
+
+        tk.Label(bar, text="🍤", font=('', FONT_SIZE), bg=COLORS['card'], fg=COLORS['text2']).pack(side='left', padx=(12,3))
+        self.gb_var = tk.StringVar(value='活小鱼')
+        gb_cb = ttk.Combobox(bar, textvariable=self.gb_var, values=['活小鱼','藻饵','虫','玉米','谷物','草','昆虫','颗粒','虾','螺','面团','蟹','贝'],
+                             state='readonly', width=6, font=('Microsoft YaHei', FONT_SIZE))
+        gb_cb.pack(side='left', padx=3)
+        gb_cb.bind('<<ComboboxSelected>>', lambda e: self.on_input())
+
+        self.ground_var = tk.StringVar(value='')
+        ground_entry = tk.Entry(bar, textvariable=self.ground_var, font=('Microsoft YaHei', FONT_SIZE),
+                                width=4, relief='solid', bd=1, justify='center')
+        ground_entry.pack(side='left', padx=(12,3))
+        self.ground_var.trace('w', lambda *a: self.on_input())
+        tk.Label(bar, text="×", font=('Microsoft YaHei', FONT_SIZE), bg=COLORS['card'], fg=COLORS['text2']).pack(side='left')
 
         # Results area
         self.canvas = tk.Canvas(root, bg=COLORS['bg'], highlightthickness=0)
@@ -167,12 +201,12 @@ class CalculatorApp:
             return  # 内容不溢出，不滚动
         self.canvas.yview_scroll(int(-1*(event.delta/120)), 'units')
 
-    def _make_entry(self, parent, text, fg, bg):
-        """创建只读 Entry，点击自动全选并复制到剪贴板"""
+    def _make_entry(self, parent, text, fg, bg, wch=0):
+        """创建只读 Entry，点击自动全选并复制到剪贴板。wch>0 时固定字符宽（保证多卡片列对齐）"""
         var = tk.StringVar(value=text)
         e = tk.Entry(parent, textvariable=var, font=('Microsoft YaHei', FONT_SIZE),
                      fg=fg, bg=bg, relief='flat', readonlybackground=bg,
-                     state='readonly', width=0, justify='center')
+                     state='readonly', width=wch, justify='center')
         def on_click(event):
             e.select_range(0, 'end')
             self.root.clipboard_clear()
@@ -210,6 +244,14 @@ class CalculatorApp:
         tk.Label(self.res_frame, text="🐟", font=('', 24), bg=COLORS['bg'], fg=COLORS['text2']).pack(pady=(60,8))
         tk.Label(self.res_frame, text="输入鱼名开始查询", font=('Microsoft YaHei', FONT_SIZE),
                  bg=COLORS['bg'], fg=COLORS['text2']).pack()
+
+    def on_fish_change(self, *a):
+        # 每次搜索鱼种时打窝重置默认：倍率空、类型活小鱼
+        if self.ground_var.get() != '':
+            self.ground_var.set('')
+        if self.gb_var.get() != '活小鱼':
+            self.gb_var.set('活小鱼')
+        self.on_input()
 
     def on_input(self):
         q = self.fish_var.get().strip()
@@ -305,6 +347,17 @@ class CalculatorApp:
     def show_results(self, fish_names):
         rod = self.get_rod()
         lvl = self.get_lvl()
+        # 打窝：倍率 0.01~5.00 区间内按用户输入，留空或无效/超范围一律按1；窝料用户选择优先，留空默认活小鱼
+        gv = self.ground_var.get().strip()
+        gm = 1.0
+        if gv:
+            try:
+                n = float(gv)
+                if 0.01 <= n <= 5.0:
+                    gm = n
+            except ValueError:
+                pass
+        gb_key = BAIT_REV.get(self.gb_var.get(), GROUND_BAIT)
         for w in self.res_frame.winfo_children():
             w.destroy()
 
@@ -323,12 +376,12 @@ class CalculatorApp:
         tk.Label(self.res_frame, text=summary, font=('Microsoft YaHei', FONT_SIZE),
                  bg=COLORS['bg'], fg=COLORS['text2'], anchor='w').pack(fill='x', padx=10, pady=(8,4))
 
-        # 固定列宽 & 间距（grid 布局）
-        COL_W = [180, 170, 160, 170]
+        # 固定列宽 & 间距（grid 布局）；mk 按列固定字符宽保证多卡片对齐
+        # 用户方案：wch 23/18/18/18 = 616px 内容 + 3 处间距 24px = 72px → 窗口 688px（16:9）
+        COL_W = [150, 150, 150, 150]  # 仅 minsize 兜底，列宽由 Entry 固定字符宽主导
+        HDR_W = [23, 18, 18, 18]      # 表头与单元格同宽，保证对齐
         COL_HDR = ['渔场', '拟饵' if rod == 'lure' else '真饵', '鱼钩', '装备参数']
-        COL_GAP = 40
-
-        mk = self._make_entry  # 快捷引用
+        COL_GAP = 24
 
         for fn, regions in all_r:
             if len(all_r) > 1:
@@ -336,7 +389,7 @@ class CalculatorApp:
                          bg=COLORS['bg'], fg=COLORS['accent'], anchor='w').pack(fill='x', padx=10, pady=(10,4))
 
             card = tk.Frame(self.res_frame, bg=COLORS['bg'])
-            card.pack(fill='x', padx=8, pady=1)
+            card.pack(fill='x', padx=0, pady=1)
             for i, w in enumerate(COL_W):
                 card.grid_columnconfigure(i, minsize=w, weight=1)
 
@@ -348,7 +401,7 @@ class CalculatorApp:
             for i, label in enumerate(COL_HDR):
                 gap = (0, COL_GAP) if i < 3 else (0, 0)
                 tk.Label(hdr, text=label, font=('Microsoft YaHei', FONT_SIZE, 'bold'),
-                         bg=COLORS['thead'], fg='#384860', anchor='center')\
+                         bg=COLORS['thead'], fg='#384860', anchor='center', width=HDR_W[i])\
                   .grid(row=0, column=i, sticky='ew', padx=gap, pady=2)
 
             # Data rows — 每列统一 3 行 Entry
@@ -360,15 +413,29 @@ class CalculatorApp:
                 t3 = COLORS['text3']  # 灰色
                 t2 = COLORS['text2']  # 中灰
                 wr = COLORS['warn']   # 红色
+                # 打窝生效：倍率>1 且 非路亚 且 岸钓 且 鱼偏好=窝料类型；倍率留空时仅"默认图+活小鱼窝"按5
+                rgm = gm
+                if not gv and gb_key == GROUND_BAIT and reg.get('n') in GROUND_DEFAULT:
+                    rgm = 5.0
+                ground_on = rgm > 1 and rod != 'lure' and reg.get('t') == '岸钓' and fish['b'] == gb_key
 
                 # === Col1: 渔场 (3行) ===
                 c1 = tk.Frame(card, bg=bg)
                 c1.grid(row=row_idx, column=0, sticky='nsew', padx=gap, pady=3)
+                # mk 按列固定字符宽 23/18/18/18，保证多卡片列对齐
+                def mk(parent, text, fg, bg):
+                    wch = 23 if parent is c1 else 18
+                    return self._make_entry(parent, text, fg, bg, wch)
                 mk(c1, reg['n'], tg, bg).pack(fill='x')
                 mk(c1, f"Lv.{reg['lv']} · {TYPE_CN.get(reg['t'], reg['t'])}", t3, bg).pack(fill='x')
-                # Row3: 自有船显示出现率，其余留空
+                # Row3: 自有船显示出现率；岸钓显示打窝状态（路亚不吃窝）；其余留空
                 if reg.get('t') == '自有船' and fish.get('ar') is not None:
                     mk(c1, f"出现率 {fish['ar']}%", t3, bg).pack(fill='x')
+                elif rod != 'lure' and reg.get('t') == '岸钓':
+                    if ground_on:
+                        mk(c1, f"窝×{rgm:g}·{BAIT_CN.get(gb_key, gb_key)}", COLORS['ground'], bg).pack(fill='x')
+                    else:
+                        mk(c1, '无窝', t3, bg).pack(fill='x')
                 else:
                     mk(c1, '', t3, bg).pack(fill='x')
 
@@ -379,8 +446,11 @@ class CalculatorApp:
                     bl, bls = None, -1
                     for l in LURES:
                         if not l.get('s') or l.get('lv',1) > lvl: continue
+                        # 拟饵综合分 = 尺寸匹配 × 类型因子(1.0/0.3/0.5) × 水层因子(1.0/0.7/0.3)，对齐油猴 rhoPref/rhoLayer
                         sc = lure_match(l['s'], fish['m'])
-                        if l['t'] == fish.get('u',''): sc *= 1.3
+                        u = fish.get('u','')
+                        sc *= 1.0 if l['t'] == u else (0.3 if u else 0.5)
+                        sc *= layer_factor(l['t'], fish['l'])
                         if sc > bls: bls, bl = sc, l
                     if bl:
                         parts = bl['n'].split(' · ', 1)
@@ -438,11 +508,16 @@ class CalculatorApp:
                     speed_num = spd.replace('m/s', '') if spd else ''
                     mk(c4, act, tg if ok else wr, bg).pack(fill='x')
                     mk(c4, speed_num, tg, bg).pack(fill='x')
-                    mk(c4, '⚠ 水层不匹配' if not ok else '', wr, bg).pack(fill='x')
+                    mk(c4, '⚠ 水层打折' if not ok else '', wr, bg).pack(fill='x')
+                elif rod == 'bottom':
+                    # 底钓：第一行鱼的水层（如"表层鱼"），第二行空，第三行非底层鱼警告（底钓贴底）
+                    mk(c4, LAYER_CN[fish['l']] + '鱼', tg, bg).pack(fill='x')
+                    mk(c4, '', tg, bg).pack(fill='x')
+                    mk(c4, '⚠ 水层不匹配' if fish['l'] != 'deep' else '', wr, bg).pack(fill='x')
                 elif rod in ('iso','match') and ld:
                     mk(c4, '线深', tg, bg).pack(fill='x')
-                    mk(c4, str(ld[0]+1), tg, bg).pack(fill='x')
-                    mk(c4, str(ld[1]-100), tg, bg).pack(fill='x')
+                    mk(c4, str(ld[0]), tg, bg).pack(fill='x')
+                    mk(c4, str(ld[1]), tg, bg).pack(fill='x')
                 else:
                     mk(c4, '—', t2, bg).pack(fill='x')
                     mk(c4, '—', t2, bg).pack(fill='x')
