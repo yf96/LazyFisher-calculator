@@ -128,7 +128,7 @@ BAIT_REV = {v: k for k, v in BAIT_CN.items()}
 class CalculatorApp:
     def __init__(self, root):
         self.root = root
-        root.title("LazyFisher 钓鱼计算器 v1.2.1")
+        root.title("LazyFisher 钓鱼计算器 v1.2.2")
         root.geometry("688x1223")
         root.resizable(False, False)
         root.configure(bg=COLORS['bg'])

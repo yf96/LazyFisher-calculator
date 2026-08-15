@@ -100,7 +100,7 @@
       },
       "古巴石斑鱼": {
         "r": "epic",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "shellfish",
         "u": "jig",
@@ -145,7 +145,7 @@
       },
       "护士鲨": {
         "r": "epic",
-        "l": "bottom",
+        "l": "deep",
         "m": 23.5,
         "b": "shellfish",
         "u": "jig",
@@ -163,7 +163,7 @@
       },
       "沉船鱼": {
         "r": "epic",
-        "l": "bottom",
+        "l": "deep",
         "m": 15.5,
         "b": "shellfish",
         "u": "jig",
@@ -235,7 +235,7 @@
       },
       "厚齿白垩鲨": {
         "r": "传奇",
-        "l": "bottom",
+        "l": "deep",
         "m": 70.5,
         "b": "shellfish",
         "u": "jig",
@@ -5764,7 +5764,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "legendary",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -5773,7 +5773,7 @@
       },
       "下延皱齿鲨": {
         "r": "legendary",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -5782,7 +5782,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "legendary",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -5809,7 +5809,7 @@
       },
       "多旋皱齿鲨": {
         "r": "legendary",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -5863,7 +5863,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "legendary",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -5872,7 +5872,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "legendary",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -5921,7 +5921,7 @@
       },
       "巨型月鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -5932,7 +5932,7 @@
       },
       "礁犬齿龙占": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15.5,
         "b": "蟹饵",
         "u": "jig",
@@ -5954,7 +5954,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -5976,7 +5976,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -6042,7 +6042,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -6086,7 +6086,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -6163,7 +6163,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -6207,7 +6207,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -6229,7 +6229,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -6240,7 +6240,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -6273,7 +6273,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -6306,7 +6306,7 @@
       },
       "深水大红鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "虾饵",
         "u": "jig",
@@ -6328,7 +6328,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -6350,7 +6350,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -6361,7 +6361,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -6504,7 +6504,7 @@
       },
       "黄边石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -6515,7 +6515,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -6559,7 +6559,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -6581,7 +6581,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -6647,7 +6647,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -6658,7 +6658,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -6702,7 +6702,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -6735,7 +6735,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -6790,7 +6790,7 @@
       },
       "犬齿笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8.3,
         "b": "small_fish",
         "u": "jig",
@@ -6823,7 +6823,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -6834,7 +6834,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -6867,7 +6867,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -6889,7 +6889,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -6900,7 +6900,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -6911,7 +6911,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -6922,7 +6922,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -7010,7 +7010,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -7032,7 +7032,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -7043,7 +7043,7 @@
       },
       "星鳗": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.8,
         "b": "small_fish",
         "u": "jig",
@@ -7065,7 +7065,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -7098,7 +7098,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -7120,7 +7120,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -7164,7 +7164,7 @@
       },
       "牙鲆": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.3,
         "b": "small_fish",
         "u": "jig",
@@ -7208,7 +7208,7 @@
       },
       "雪斑石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.8,
         "b": "small_fish",
         "u": "jig",
@@ -7340,7 +7340,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -7418,7 +7418,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -7440,7 +7440,7 @@
       },
       "雪斑石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.8,
         "b": "small_fish",
         "u": "jig",
@@ -7451,7 +7451,7 @@
       },
       "星鳗": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.8,
         "b": "small_fish",
         "u": "jig",
@@ -7484,7 +7484,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -7528,7 +7528,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -7638,7 +7638,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -7660,7 +7660,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -7682,7 +7682,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -7726,7 +7726,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -7737,7 +7737,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -7770,7 +7770,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -7858,7 +7858,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -7880,7 +7880,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -7924,7 +7924,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -7957,7 +7957,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -7979,7 +7979,7 @@
       },
       "黄边石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -8012,7 +8012,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -8111,7 +8111,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -8188,7 +8188,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -8232,7 +8232,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -8265,7 +8265,7 @@
       },
       "牙鲆": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.3,
         "b": "small_fish",
         "u": "jig",
@@ -8276,7 +8276,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -8353,7 +8353,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -8386,7 +8386,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -8397,7 +8397,7 @@
       },
       "巨型拿破仑隆头鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15.5,
         "b": "蟹饵",
         "u": "jig",
@@ -8408,7 +8408,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -8430,7 +8430,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -8441,7 +8441,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -8452,7 +8452,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -8474,7 +8474,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -8496,7 +8496,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -8518,7 +8518,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -8529,7 +8529,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -8573,7 +8573,7 @@
       },
       "金线鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.7,
         "b": "虾饵",
         "u": "jig",
@@ -8617,7 +8617,7 @@
       },
       "巨型金线方头鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 10.8,
         "b": "shellfish",
         "u": "jig",
@@ -8661,7 +8661,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -8683,7 +8683,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -8760,7 +8760,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -8793,7 +8793,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -8981,7 +8981,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -8992,7 +8992,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -9025,7 +9025,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -9201,7 +9201,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -9234,7 +9234,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -9289,7 +9289,7 @@
       },
       "海纳鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32.5,
         "b": "small_fish",
         "u": "jig",
@@ -9300,7 +9300,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -9322,7 +9322,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -9366,7 +9366,7 @@
       },
       "沙魔鬼鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "small_fish",
         "u": "jig",
@@ -9454,7 +9454,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -9465,7 +9465,7 @@
       },
       "砧棘鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20,
         "b": "small_fish",
         "u": "jig",
@@ -9476,7 +9476,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -9509,7 +9509,7 @@
       },
       "巨型月鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -9531,7 +9531,7 @@
       },
       "莫森鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 41,
         "b": "small_fish",
         "u": "jig",
@@ -9586,7 +9586,7 @@
       },
       "巨型拿破仑隆头鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15.5,
         "b": "蟹饵",
         "u": "jig",
@@ -9597,7 +9597,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -9630,7 +9630,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -9696,7 +9696,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -9740,7 +9740,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -9773,7 +9773,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -9784,7 +9784,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -9795,7 +9795,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -9806,7 +9806,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -9817,7 +9817,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -9861,7 +9861,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -9905,7 +9905,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -9916,7 +9916,7 @@
       },
       "金线鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.7,
         "b": "虾饵",
         "u": "jig",
@@ -9927,7 +9927,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -9949,7 +9949,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -9993,7 +9993,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -10004,7 +10004,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -10059,7 +10059,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -10070,7 +10070,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -10136,7 +10136,7 @@
       },
       "巨型金线方头鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 10.8,
         "b": "shellfish",
         "u": "jig",
@@ -10147,7 +10147,7 @@
       },
       "星鳗": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.8,
         "b": "small_fish",
         "u": "jig",
@@ -10180,7 +10180,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -10291,7 +10291,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -10401,7 +10401,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -10412,7 +10412,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -10467,7 +10467,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -10522,7 +10522,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -10555,7 +10555,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -10577,7 +10577,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -10632,7 +10632,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -10665,7 +10665,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -10786,7 +10786,7 @@
       },
       "牙鲆": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.3,
         "b": "small_fish",
         "u": "jig",
@@ -10819,7 +10819,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -10863,7 +10863,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -10896,7 +10896,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -10907,7 +10907,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -10918,7 +10918,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -10940,7 +10940,7 @@
       },
       "星鳗": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.8,
         "b": "small_fish",
         "u": "jig",
@@ -10951,7 +10951,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -10962,7 +10962,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -10973,7 +10973,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -10984,7 +10984,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -10995,7 +10995,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -11028,7 +11028,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -11050,7 +11050,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -11061,7 +11061,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -11072,7 +11072,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -11094,7 +11094,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -11105,7 +11105,7 @@
       },
       "黄边石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -11204,7 +11204,7 @@
       },
       "雪斑石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.8,
         "b": "small_fish",
         "u": "jig",
@@ -11292,7 +11292,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -11336,7 +11336,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -11391,7 +11391,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -11413,7 +11413,7 @@
       },
       "金线鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.7,
         "b": "虾饵",
         "u": "jig",
@@ -11457,7 +11457,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -11523,7 +11523,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -11545,7 +11545,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -11646,7 +11646,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -11701,7 +11701,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -11756,7 +11756,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -11789,7 +11789,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -11800,7 +11800,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -11811,7 +11811,7 @@
       },
       "巨型大西洋庸鲽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20,
         "b": "small_fish",
         "u": "jig",
@@ -11822,7 +11822,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -11833,7 +11833,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -11844,7 +11844,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -11921,7 +11921,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -11943,7 +11943,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -11965,7 +11965,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -11976,7 +11976,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -11987,7 +11987,7 @@
       },
       "巨型六带石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 26.5,
         "b": "蟹饵",
         "u": "jig",
@@ -12020,7 +12020,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -12031,7 +12031,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -12075,7 +12075,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -12141,7 +12141,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -12152,7 +12152,7 @@
       },
       "黄金剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32.5,
         "b": "small_fish",
         "u": "jig",
@@ -12207,7 +12207,7 @@
       },
       "银背阔吻剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 34,
         "b": "small_fish",
         "u": "jig",
@@ -12284,7 +12284,7 @@
       },
       "巴塔哥尼亚犬牙南极鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15.3,
         "b": "small_fish",
         "u": "jig",
@@ -12416,7 +12416,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -12438,7 +12438,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -12482,7 +12482,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -12504,7 +12504,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -12526,7 +12526,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -12548,7 +12548,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -12559,7 +12559,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -12658,7 +12658,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -12713,7 +12713,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -12724,7 +12724,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -12757,7 +12757,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -12768,7 +12768,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -12779,7 +12779,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -12812,7 +12812,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -12901,7 +12901,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -12912,7 +12912,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -12945,7 +12945,7 @@
       },
       "巨型黑石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19.8,
         "b": "蟹饵",
         "u": "jig",
@@ -12967,7 +12967,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -13033,7 +13033,7 @@
       },
       "雪斑石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.8,
         "b": "small_fish",
         "u": "jig",
@@ -13066,7 +13066,7 @@
       },
       "黄金剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32.5,
         "b": "small_fish",
         "u": "jig",
@@ -13121,7 +13121,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -13198,7 +13198,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -13242,7 +13242,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -13297,7 +13297,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -13308,7 +13308,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -13363,7 +13363,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -13385,7 +13385,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -13407,7 +13407,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -13462,7 +13462,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -13506,7 +13506,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -13572,7 +13572,7 @@
       },
       "礁犬齿龙占": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15.5,
         "b": "蟹饵",
         "u": "jig",
@@ -13616,7 +13616,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -13627,7 +13627,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -13660,7 +13660,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -13671,7 +13671,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -13715,7 +13715,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -13748,7 +13748,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -13759,7 +13759,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -13770,7 +13770,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -13781,7 +13781,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -13825,7 +13825,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -13836,7 +13836,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -13847,7 +13847,7 @@
       },
       "黄边石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -13957,7 +13957,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -14078,7 +14078,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -14133,7 +14133,7 @@
       },
       "牙鲆": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.3,
         "b": "small_fish",
         "u": "jig",
@@ -14166,7 +14166,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -14232,7 +14232,7 @@
       },
       "星鳗": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.8,
         "b": "small_fish",
         "u": "jig",
@@ -14254,7 +14254,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -14299,7 +14299,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -14442,7 +14442,7 @@
       },
       "邓氏鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 61.5,
         "b": "small_fish",
         "u": "jig",
@@ -14453,7 +14453,7 @@
       },
       "海纳鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32.5,
         "b": "small_fish",
         "u": "jig",
@@ -14464,7 +14464,7 @@
       },
       "巨型粗皮角鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 29,
         "b": "small_fish",
         "u": "jig",
@@ -14475,7 +14475,7 @@
       },
       "巴塔哥尼亚犬牙南极鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15.3,
         "b": "small_fish",
         "u": "jig",
@@ -14486,7 +14486,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -14530,7 +14530,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -14541,7 +14541,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -14552,7 +14552,7 @@
       },
       "古剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 37.5,
         "b": "small_fish",
         "u": "jig",
@@ -14585,7 +14585,7 @@
       },
       "巨乌贼猎手": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 82.5,
         "b": "small_fish",
         "u": "jig",
@@ -14640,7 +14640,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -14695,7 +14695,7 @@
       },
       "剪齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 51,
         "b": "small_fish",
         "u": "minnow",
@@ -14706,7 +14706,7 @@
       },
       "皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 70,
         "b": "shellfish",
         "u": "jig",
@@ -14717,7 +14717,7 @@
       },
       "巨型大西洋庸鲽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20,
         "b": "small_fish",
         "u": "jig",
@@ -14761,7 +14761,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -14772,7 +14772,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -14794,7 +14794,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -14805,7 +14805,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -14827,7 +14827,7 @@
       },
       "根齿鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 50,
         "b": "small_fish",
         "u": "jig",
@@ -14838,7 +14838,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -14849,7 +14849,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -14948,7 +14948,7 @@
       },
       "秘海皇带鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 70,
         "b": "虾饵",
         "u": "jig",
@@ -14959,7 +14959,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -15003,7 +15003,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -15014,7 +15014,7 @@
       },
       "雪斑石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.8,
         "b": "small_fish",
         "u": "jig",
@@ -15025,7 +15025,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -15036,7 +15036,7 @@
       },
       "深渊巨棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 28.3,
         "b": "small_fish",
         "u": "jig",
@@ -15069,7 +15069,7 @@
       },
       "黄金剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32.5,
         "b": "small_fish",
         "u": "jig",
@@ -15124,7 +15124,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -15201,7 +15201,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -15212,7 +15212,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -15256,7 +15256,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -15278,7 +15278,7 @@
       },
       "旋齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 52.5,
         "b": "small_fish",
         "u": "jig",
@@ -15300,7 +15300,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -15333,7 +15333,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -15355,7 +15355,7 @@
       },
       "银背阔吻剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 34,
         "b": "small_fish",
         "u": "jig",
@@ -15366,7 +15366,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -15421,7 +15421,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -15443,7 +15443,7 @@
       },
       "巨型棘鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -15498,7 +15498,7 @@
       },
       "巨型月鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -15619,7 +15619,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -15641,7 +15641,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -15652,7 +15652,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -15663,7 +15663,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -15674,7 +15674,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -15685,7 +15685,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -15718,7 +15718,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -15740,7 +15740,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -15751,7 +15751,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -15807,7 +15807,7 @@
     "f": {
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -15873,7 +15873,7 @@
       },
       "巨型红宝石鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17.5,
         "b": "虾饵",
         "u": "jig",
@@ -15884,7 +15884,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -15895,7 +15895,7 @@
       },
       "巨型黑石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19.8,
         "b": "蟹饵",
         "u": "jig",
@@ -15906,7 +15906,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -15917,7 +15917,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -15950,7 +15950,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -15994,7 +15994,7 @@
       },
       "银背阔吻剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 34,
         "b": "small_fish",
         "u": "jig",
@@ -16038,7 +16038,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -16060,7 +16060,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -16071,7 +16071,7 @@
       },
       "巨型沉船鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20,
         "b": "蟹饵",
         "u": "jig",
@@ -16093,7 +16093,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -16126,7 +16126,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -16192,7 +16192,7 @@
       },
       "巨乌贼猎手": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 82.5,
         "b": "small_fish",
         "u": "jig",
@@ -16203,7 +16203,7 @@
       },
       "巨型棘鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -16214,7 +16214,7 @@
       },
       "深渊睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 51,
         "b": "small_fish",
         "u": "jig",
@@ -16225,7 +16225,7 @@
       },
       "秘海皇带鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 70,
         "b": "虾饵",
         "u": "jig",
@@ -16258,7 +16258,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -16313,7 +16313,7 @@
       },
       "深渊巨棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 28.3,
         "b": "small_fish",
         "u": "jig",
@@ -16324,7 +16324,7 @@
       },
       "深渊巨管眼鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.8,
         "b": "虾饵",
         "u": "jig",
@@ -16357,7 +16357,7 @@
       },
       "巨型六带石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 26.5,
         "b": "蟹饵",
         "u": "jig",
@@ -16401,7 +16401,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -16423,7 +16423,7 @@
       },
       "古剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 37.5,
         "b": "small_fish",
         "u": "jig",
@@ -16500,7 +16500,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -16522,7 +16522,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -16533,7 +16533,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -16555,7 +16555,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -16610,7 +16610,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -16665,7 +16665,7 @@
       },
       "巨型粗皮角鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 29,
         "b": "small_fish",
         "u": "jig",
@@ -16720,7 +16720,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -16742,7 +16742,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -16753,7 +16753,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -16775,7 +16775,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -16852,7 +16852,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -16885,7 +16885,7 @@
       },
       "金线鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.7,
         "b": "虾饵",
         "u": "jig",
@@ -16929,7 +16929,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -17028,7 +17028,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -17061,7 +17061,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -17072,7 +17072,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -17083,7 +17083,7 @@
       },
       "黄边石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -17094,7 +17094,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -17105,7 +17105,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -17116,7 +17116,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -17127,7 +17127,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -17204,7 +17204,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -17215,7 +17215,7 @@
       },
       "牙鲆": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.3,
         "b": "small_fish",
         "u": "jig",
@@ -17248,7 +17248,7 @@
       },
       "星鳗": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.8,
         "b": "small_fish",
         "u": "jig",
@@ -17292,7 +17292,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -17447,7 +17447,7 @@
       },
       "沉船鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15.5,
         "b": "shellfish",
         "u": "jig",
@@ -17524,7 +17524,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -17557,7 +17557,7 @@
       },
       "厚齿白垩鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 70.5,
         "b": "shellfish",
         "u": "jig",
@@ -17601,7 +17601,7 @@
       },
       "护士鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23.5,
         "b": "shellfish",
         "u": "jig",
@@ -17623,7 +17623,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -17645,7 +17645,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -17700,7 +17700,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -17711,7 +17711,7 @@
       },
       "古巴石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "shellfish",
         "u": "jig",
@@ -17733,7 +17733,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -17755,7 +17755,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -17810,7 +17810,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -17887,7 +17887,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -17909,7 +17909,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -17920,7 +17920,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -17931,7 +17931,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -17997,7 +17997,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -18008,7 +18008,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -18041,7 +18041,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -18107,7 +18107,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -18162,7 +18162,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -18206,7 +18206,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -18228,7 +18228,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -18250,7 +18250,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -18294,7 +18294,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -18316,7 +18316,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -18338,7 +18338,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -18470,7 +18470,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -18492,7 +18492,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -18514,7 +18514,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -18525,7 +18525,7 @@
       },
       "金线鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.7,
         "b": "虾饵",
         "u": "jig",
@@ -18536,7 +18536,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -18580,7 +18580,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -18624,7 +18624,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -18635,7 +18635,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -18657,7 +18657,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -18690,7 +18690,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -18756,7 +18756,7 @@
       },
       "星鳗": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.8,
         "b": "small_fish",
         "u": "jig",
@@ -18823,7 +18823,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -18834,7 +18834,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -18867,7 +18867,7 @@
       },
       "大西洋歌利亚石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20,
         "b": "shellfish",
         "u": "jig",
@@ -18922,7 +18922,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -19010,7 +19010,7 @@
       },
       "驼背石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 12,
         "b": "small_fish",
         "u": "jig",
@@ -19054,7 +19054,7 @@
       },
       "土豆鳕石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -19087,7 +19087,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -19098,7 +19098,7 @@
       },
       "金线鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.7,
         "b": "虾饵",
         "u": "jig",
@@ -19142,7 +19142,7 @@
       },
       "阔吻七鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 25,
         "b": "small_fish",
         "u": "jig",
@@ -19186,7 +19186,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -19208,7 +19208,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -19241,7 +19241,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -19252,7 +19252,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -19296,7 +19296,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -19318,7 +19318,7 @@
       },
       "大西洋大比目鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -19329,7 +19329,7 @@
       },
       "太平洋大比目鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "small_fish",
         "u": "jig",
@@ -19406,7 +19406,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -19417,7 +19417,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -19461,7 +19461,7 @@
       },
       "大西洋黑石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -19560,7 +19560,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -19571,7 +19571,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -19659,7 +19659,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -19703,7 +19703,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -19725,7 +19725,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -19747,7 +19747,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -19813,7 +19813,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -19824,7 +19824,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -19846,7 +19846,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -19890,7 +19890,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -19901,7 +19901,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -19912,7 +19912,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -20000,7 +20000,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -20011,7 +20011,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -20044,7 +20044,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -20055,7 +20055,7 @@
       },
       "黄边石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -20066,7 +20066,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -20110,7 +20110,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -20154,7 +20154,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -20220,7 +20220,7 @@
       },
       "星鳗": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.8,
         "b": "small_fish",
         "u": "jig",
@@ -20253,7 +20253,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -20264,7 +20264,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -20275,7 +20275,7 @@
       },
       "雪斑石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.8,
         "b": "small_fish",
         "u": "jig",
@@ -20286,7 +20286,7 @@
       },
       "牙鲆": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.3,
         "b": "small_fish",
         "u": "jig",
@@ -20297,7 +20297,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -20320,7 +20320,7 @@
     "f": {
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -20342,7 +20342,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -20419,7 +20419,7 @@
       },
       "巨异骨鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "minnow",
@@ -20430,7 +20430,7 @@
       },
       "巨盾鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 55,
         "b": "shellfish",
         "u": "minnow",
@@ -20463,7 +20463,7 @@
       },
       "特米尔泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 63.5,
         "b": "shellfish",
         "u": "minnow",
@@ -20474,7 +20474,7 @@
       },
       "赫氏恐鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 51,
         "b": "shellfish",
         "u": "minnow",
@@ -20518,7 +20518,7 @@
       },
       "黑点石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16,
         "b": "small_fish",
         "u": "jig",
@@ -20540,7 +20540,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -20551,7 +20551,7 @@
       },
       "克拉克戈耳贡鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 55,
         "b": "shellfish",
         "u": "minnow",
@@ -20573,7 +20573,7 @@
       },
       "古尔德海因茨鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "minnow",
@@ -20628,7 +20628,7 @@
       },
       "深渊睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 51,
         "b": "small_fish",
         "u": "jig",
@@ -20683,7 +20683,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -20705,7 +20705,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -20727,7 +20727,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -20738,7 +20738,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -20749,7 +20749,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -20760,7 +20760,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -20782,7 +20782,7 @@
       },
       "深渊巨棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 28.3,
         "b": "small_fish",
         "u": "jig",
@@ -20793,7 +20793,7 @@
       },
       "牙鲆": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.3,
         "b": "small_fish",
         "u": "jig",
@@ -20815,7 +20815,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -20870,7 +20870,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -20903,7 +20903,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -20947,7 +20947,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -20958,7 +20958,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -20969,7 +20969,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -20980,7 +20980,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -20991,7 +20991,7 @@
       },
       "褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "shellfish",
         "u": "jig",
@@ -21112,7 +21112,7 @@
       },
       "箭齿鲽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -21134,7 +21134,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -21156,7 +21156,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -21233,7 +21233,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -21244,7 +21244,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -21255,7 +21255,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -21354,7 +21354,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -21376,7 +21376,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -21398,7 +21398,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -21409,7 +21409,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -21431,7 +21431,7 @@
       },
       "雪斑石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.8,
         "b": "small_fish",
         "u": "jig",
@@ -21442,7 +21442,7 @@
       },
       "黄边石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -21453,7 +21453,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -21464,7 +21464,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -21519,7 +21519,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -21695,7 +21695,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -21784,7 +21784,7 @@
     "f": {
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -21872,7 +21872,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -21905,7 +21905,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -21916,7 +21916,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -21938,7 +21938,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -21971,7 +21971,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -22037,7 +22037,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -22092,7 +22092,7 @@
       },
       "牙鲆": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.3,
         "b": "small_fish",
         "u": "jig",
@@ -22169,7 +22169,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -22180,7 +22180,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -22224,7 +22224,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -22246,7 +22246,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -22279,7 +22279,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -22290,7 +22290,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -22334,7 +22334,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -22367,7 +22367,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -22378,7 +22378,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -22400,7 +22400,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -22411,7 +22411,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -22422,7 +22422,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -22466,7 +22466,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -22521,7 +22521,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -22543,7 +22543,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -22554,7 +22554,7 @@
       },
       "黄边石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -22576,7 +22576,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -22730,7 +22730,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -22763,7 +22763,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -22807,7 +22807,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -22873,7 +22873,7 @@
       },
       "雪斑石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.8,
         "b": "small_fish",
         "u": "jig",
@@ -22884,7 +22884,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -22939,7 +22939,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -23005,7 +23005,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -23016,7 +23016,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -23027,7 +23027,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -23082,7 +23082,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -23116,7 +23116,7 @@
     "f": {
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -23138,7 +23138,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -23160,7 +23160,7 @@
       },
       "半褶白垩鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 58.5,
         "b": "small_fish",
         "u": "jig",
@@ -23226,7 +23226,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -23248,7 +23248,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -23259,7 +23259,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -23347,7 +23347,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -23391,7 +23391,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -23435,7 +23435,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",
@@ -23457,7 +23457,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -23479,7 +23479,7 @@
       },
       "大根薄鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 55,
         "b": "small_fish",
         "u": "jig",
@@ -23501,7 +23501,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -23545,7 +23545,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -23567,7 +23567,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -23589,7 +23589,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -23600,7 +23600,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -23633,7 +23633,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -23721,7 +23721,7 @@
       },
       "星鳗": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.8,
         "b": "small_fish",
         "u": "jig",
@@ -23743,7 +23743,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -23754,7 +23754,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -23787,7 +23787,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -23809,7 +23809,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -23842,7 +23842,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -23908,7 +23908,7 @@
       },
       "雪斑石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.8,
         "b": "small_fish",
         "u": "jig",
@@ -24018,7 +24018,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -24040,7 +24040,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -24073,7 +24073,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -24172,7 +24172,7 @@
       },
       "金线鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.7,
         "b": "虾饵",
         "u": "jig",
@@ -24249,7 +24249,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -24260,7 +24260,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -24271,7 +24271,7 @@
       },
       "牙鲆": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.3,
         "b": "small_fish",
         "u": "jig",
@@ -24282,7 +24282,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -24304,7 +24304,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -24337,7 +24337,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -24381,7 +24381,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -24436,7 +24436,7 @@
       },
       "黄边石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -24491,7 +24491,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -24569,7 +24569,7 @@
       },
       "粗纹皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 54,
         "b": "shellfish",
         "u": "crank",
@@ -24591,7 +24591,7 @@
       },
       "克拉克泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 65.5,
         "b": "shellfish",
         "u": "minnow",
@@ -24602,7 +24602,7 @@
       },
       "阿加西泰坦鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 64,
         "b": "shellfish",
         "u": "minnow",
@@ -24712,7 +24712,7 @@
       },
       "钝吻六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 35,
         "b": "small_fish",
         "u": "jig",
@@ -24723,7 +24723,7 @@
       },
       "六鳃鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 32,
         "b": "small_fish",
         "u": "jig",
@@ -24745,7 +24745,7 @@
       },
       "下延皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 56,
         "b": "shellfish",
         "u": "crank",
@@ -24822,7 +24822,7 @@
       },
       "深水巨魽": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 20.3,
         "b": "small_fish",
         "u": "jig",
@@ -24833,7 +24833,7 @@
       },
       "弓吻犁头鳐": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24,
         "b": "shellfish",
         "u": "jig",
@@ -24855,7 +24855,7 @@
       },
       "惠普尔皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 66.5,
         "b": "shellfish",
         "u": "crank",
@@ -24877,7 +24877,7 @@
       },
       "多旋皱齿鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 62.5,
         "b": "shellfish",
         "u": "crank",
@@ -24921,7 +24921,7 @@
       },
       "巨型桶鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 21.5,
         "b": "虾饵",
         "u": "jig",
@@ -25031,7 +25031,7 @@
       },
       "赤点笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6,
         "b": "蟹饵",
         "u": "jig",
@@ -25064,7 +25064,7 @@
       },
       "巨口鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 40.5,
         "b": "shellfish",
         "u": "jig",
@@ -25097,7 +25097,7 @@
       },
       "青笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.4,
         "b": "small_fish",
         "u": "jig",
@@ -25141,7 +25141,7 @@
       },
       "驼背鲈": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11.8,
         "b": "small_fish",
         "u": "jig",
@@ -25174,7 +25174,7 @@
       },
       "华沙石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 15,
         "b": "small_fish",
         "u": "jig",
@@ -25207,7 +25207,7 @@
       },
       "雾纹巨石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 16.5,
         "b": "蟹饵",
         "u": "jig",
@@ -25240,7 +25240,7 @@
       },
       "巨型石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 17,
         "b": "small_fish",
         "u": "jig",
@@ -25251,7 +25251,7 @@
       },
       "红笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 5.7,
         "b": "蟹饵",
         "u": "jig",
@@ -25295,7 +25295,7 @@
       },
       "巨型褐石斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 19,
         "b": "蟹饵",
         "u": "jig",
@@ -25306,7 +25306,7 @@
       },
       "许氏平鲉": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 4,
         "b": "虾饵",
         "u": "jig",
@@ -25361,7 +25361,7 @@
       },
       "格陵兰睡鲨": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 36,
         "b": "small_fish",
         "u": "jig",
@@ -25372,7 +25372,7 @@
       },
       "深水巨蓝鳕": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 23,
         "b": "small_fish",
         "u": "jig",
@@ -25383,7 +25383,7 @@
       },
       "金线鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.7,
         "b": "虾饵",
         "u": "jig",
@@ -25394,7 +25394,7 @@
       },
       "土豆斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14,
         "b": "small_fish",
         "u": "jig",
@@ -25416,7 +25416,7 @@
       },
       "东星斑": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.1,
         "b": "small_fish",
         "u": "jig",
@@ -25471,7 +25471,7 @@
       },
       "雪斑石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 7.8,
         "b": "small_fish",
         "u": "jig",
@@ -25493,7 +25493,7 @@
       },
       "龙趸": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 14.5,
         "b": "small_fish",
         "u": "jig",
@@ -25526,7 +25526,7 @@
       },
       "剑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 24.5,
         "b": "small_fish",
         "u": "jig",
@@ -25548,7 +25548,7 @@
       },
       "古巴笛鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 11,
         "b": "small_fish",
         "u": "jig",
@@ -25625,7 +25625,7 @@
       },
       "牙鲆": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.3,
         "b": "small_fish",
         "u": "jig",
@@ -25647,7 +25647,7 @@
       },
       "巨型棘鳞蛇鲭": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 18.3,
         "b": "small_fish",
         "u": "jig",
@@ -25735,7 +25735,7 @@
       },
       "星鳗": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.8,
         "b": "small_fish",
         "u": "jig",
@@ -25757,7 +25757,7 @@
       },
       "黄边石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -25812,7 +25812,7 @@
       },
       "褐点石斑鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 8,
         "b": "small_fish",
         "u": "jig",
@@ -25845,7 +25845,7 @@
       },
       "黄鳍羊鱼": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 2.9,
         "b": "虾饵",
         "u": "jig",
@@ -25856,7 +25856,7 @@
       },
       "星斑裸颊鲷": {
         "r": "common",
-        "l": "bottom",
+        "l": "deep",
         "m": 6.2,
         "b": "虾饵",
         "u": "jig",

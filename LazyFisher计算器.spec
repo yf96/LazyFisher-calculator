@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='LazyFisher计算器-v1.2.1',
+    name='LazyFisher计算器-v1.2.2',
     icon='fish.ico',
     debug=False,
     bootloader_ignore_signals=False,
