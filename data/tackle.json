@@ -1030,6 +1030,18 @@
                       "base_price":  13480,
                       "level_required":  90,
                       "stack_size":  4
+                  },
+                  {
+                      "id":  "oceanscent_arctic_squid_mantle",
+                      "name":  "OceanScent AR-76 · 北境鱿鱼胴条",
+                      "bait_type":  "cephalopod",
+                      "size":  34,
+                      "naturalness":  0.96,
+                      "color":  "ivory_pink",
+                      "base_price":  11900,
+                      "level_required":  75,
+                      "stack_size":  5,
+                      "crab_attraction_bonus":  0.18
                   }
               ],
     "custom_lines":  [
@@ -2364,6 +2376,18 @@
                       "durability":  100
                   },
                   {
+                      "id":  "borealhook_cg30_wide_gap",
+                      "name":  "BorealHook CG-30 · 宽门钓蟹钩 3/0",
+                      "hook_type":  "double",
+                      "size":  -3,
+                      "snag_factor":  0.44,
+                      "recognition":  0.42,
+                      "base_price":  1680,
+                      "level_required":  70,
+                      "durability":  100,
+                      "crab_hold_bonus":  0.16
+                  },
+                  {
                       "id":  "marineredge_bg45_maelstrom_10_0",
                       "name":  "MarinerEdge BG-45 · 涡海王座钩 10/0",
                       "hook_type":  "single",
@@ -2386,6 +2410,18 @@
                       "base_price":  1180,
                       "level_required":  75,
                       "durability":  100
+                  },
+                  {
+                      "id":  "borealhook_ch50_bottom_hold",
+                      "name":  "BorealHook CH-50 · 防脱钓蟹钩 5/0",
+                      "hook_type":  "treble",
+                      "size":  -5,
+                      "snag_factor":  0.63,
+                      "recognition":  0.50,
+                      "base_price":  2360,
+                      "level_required":  75,
+                      "durability":  100,
+                      "crab_hold_bonus":  0.24
                   },
                   {
                       "id":  "hooklab_single_sz2_sovereign",

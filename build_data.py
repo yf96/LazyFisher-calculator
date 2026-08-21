@@ -27,11 +27,12 @@ baits = [{'n':b['name'],'s':b.get('size',0),'t':b['bait_type'],'lv':b.get('level
 with open(os.path.join(app_dir, 'main_template.py'), 'r', encoding='utf-8') as f:
     py = f.read()
 
-# Replace placeholders
-py = py.replace('__REGIONS_PLACEHOLDER__', json.dumps(regions, ensure_ascii=False))
-py = py.replace('__HOOKS_PLACEHOLDER__', json.dumps(hooks, ensure_ascii=False))
-py = py.replace('__LURES_PLACEHOLDER__', json.dumps(lures, ensure_ascii=False))
-py = py.replace('__BAITS_PLACEHOLDER__', json.dumps(baits, ensure_ascii=False))
+# Replace placeholders. 这里嵌入的是 Python 源码而非 JSON：使用 repr 可正确生成
+# None / True / False，避免新数据中的 JSON null 使生成的 main.py 无法导入。
+py = py.replace('__REGIONS_PLACEHOLDER__', repr(regions))
+py = py.replace('__HOOKS_PLACEHOLDER__', repr(hooks))
+py = py.replace('__LURES_PLACEHOLDER__', repr(lures))
+py = py.replace('__BAITS_PLACEHOLDER__', repr(baits))
 
 out_path = os.path.join(app_dir, 'main.py')
 with open(out_path, 'w', encoding='utf-8') as f:

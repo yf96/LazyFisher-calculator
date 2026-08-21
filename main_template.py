@@ -110,6 +110,20 @@ def select_best_bait(bait_type, mouth, lvl):
             return (b['n'], 0)
     return (bait_type, 0)
 
+def select_best_bait_by_mouth(mouth, lvl):
+    """只按鱼口尺寸选择最佳真饵，忽略鱼种的真饵类型偏好。"""
+    best, bs = None, -1
+    for b in BAITS:
+        if b['lv'] > lvl:
+            continue
+        sc = math.exp(-(b['s'] - mouth) ** 2 / 6.25)
+        if sc > bs:
+            bs = sc
+            best = b
+    if best:
+        return (best['n'], min(bs, 1.0))
+    return ('', 0)
+
 ROD_CN = {'lure': '路亚', 'bottom': '底钓', 'iso': '矶竿', 'match': '赛竿'}
 ROD_REV = {'路亚': 'lure', '底钓': 'bottom', '矶竿': 'iso', '赛竿': 'match'}
 TYPE_CN = {'船钓': '船钓', '岸钓': '岸钓', '自有船': '自有船'}
@@ -121,14 +135,14 @@ GROUND_DEFAULT = {'黑礁断面': 5, '暴线礁·远浪台': 5, '天落库壁': 
 GROUND_BAIT = 'small_fish'
 BAIT_CN = {'algae_paste': '藻饵', 'worm': '虫', 'corn': '玉米', 'grain': '谷物', 'grass': '草',
            'insect': '昆虫', 'pellet': '颗粒', 'shrimp': '虾', 'snail': '螺', 'small_fish': '活小鱼',
-           'paste': '面团', 'crab': '蟹', 'shellfish': '贝'}
+           'paste': '面团', 'crab': '蟹', 'shellfish': '贝', 'cephalopod': '头足类'}
 BAIT_REV = {v: k for k, v in BAIT_CN.items()}
 
 # ========== GUI ==========
 class CalculatorApp:
     def __init__(self, root):
         self.root = root
-        root.title("LazyFisher 钓鱼计算器 v1.2.2")
+        root.title("LazyFisher 钓鱼计算器 v1.3.0")
         root.geometry("688x1223")
         root.resizable(False, False)
         root.configure(bg=COLORS['bg'])
@@ -146,7 +160,7 @@ class CalculatorApp:
         self.fish_var.trace('w', lambda *a: self.on_fish_change())
 
         tk.Label(bar, text="🎣", font=('', FONT_SIZE), bg=COLORS['card'], fg=COLORS['text2']).pack(side='left', padx=(12,3))
-        self.rod_var = tk.StringVar(value='路亚')
+        self.rod_var = tk.StringVar(value='矶竿')
         rod_cb = ttk.Combobox(bar, textvariable=self.rod_var, values=['路亚','底钓','矶竿','赛竿'],
                                state='readonly', width=6, font=('Microsoft YaHei', FONT_SIZE))
         rod_cb.pack(side='left', padx=3)
@@ -230,7 +244,7 @@ class CalculatorApp:
         self.root.after(500, toast.destroy)
 
     def get_rod(self):
-        return ROD_REV.get(self.rod_var.get(), 'lure')
+        return ROD_REV.get(self.rod_var.get(), 'iso')
 
     def get_lvl(self):
         v = self.lvl_var.get().strip()
@@ -404,7 +418,7 @@ class CalculatorApp:
                          bg=COLORS['thead'], fg='#384860', anchor='center', width=HDR_W[i])\
                   .grid(row=0, column=i, sticky='ew', padx=gap, pady=2)
 
-            # Data rows — 每列统一 3 行 Entry
+            # Data rows — 每列统一 4 行 Entry
             row_idx = 1
             for reg, fish in regions:
                 bg = COLORS['bg']
@@ -419,7 +433,7 @@ class CalculatorApp:
                     rgm = 5.0
                 ground_on = rgm > 1 and rod != 'lure' and reg.get('t') == '岸钓' and fish['b'] == gb_key
 
-                # === Col1: 渔场 (3行) ===
+                # === Col1: 渔场 (4行) ===
                 c1 = tk.Frame(card, bg=bg)
                 c1.grid(row=row_idx, column=0, sticky='nsew', padx=gap, pady=3)
                 # mk 按列固定字符宽 23/18/18/18，保证多卡片列对齐
@@ -438,8 +452,9 @@ class CalculatorApp:
                         mk(c1, '无窝', t3, bg).pack(fill='x')
                 else:
                     mk(c1, '', t3, bg).pack(fill='x')
+                mk(c1, '', t3, bg).pack(fill='x')
 
-                # === Col2: 饵 (3行) ===
+                # === Col2: 饵 (4行) ===
                 c2 = tk.Frame(card, bg=bg)
                 c2.grid(row=row_idx, column=1, sticky='nsew', padx=gap, pady=3)
                 if rod == 'lure':
@@ -457,27 +472,38 @@ class CalculatorApp:
                         mk(c2, parts[0], tg, bg).pack(fill='x')
                         mk(c2, parts[1] if len(parts)>1 else '', tg, bg).pack(fill='x')
                         mk(c2, f"匹配 {min(bls*100,100):.0f}% · Lv.{bl['lv']}", t3, bg).pack(fill='x')
+                        mk(c2, '', t3, bg).pack(fill='x')
                     else:
                         mk(c2, '—', t2, bg).pack(fill='x')
                         mk(c2, '', tg, bg).pack(fill='x')
                         mk(c2, '', t3, bg).pack(fill='x')
+                        mk(c2, '', t3, bg).pack(fill='x')
                 else:
                     bn, bs = select_best_bait(fish['b'], fish['m'], lvl)
-                    # 真饵：找中文名
-                    parts = bn.split(' · ', 1)
-                    cn_name = parts[1] if len(parts)>1 else bn
-                    # 找等级
-                    b_lv = None
-                    for b in BAITS:
-                        if b['n'] == bn:
-                            b_lv = b['lv'] if b.get('lv') else None
-                            break
-                    b_lv_str = f" · Lv.{b_lv}" if b_lv else ""
-                    mk(c2, '', tg, bg).pack(fill='x')
-                    mk(c2, cn_name, tg, bg).pack(fill='x')
-                    mk(c2, f"匹配 {bs*100:.0f}%{b_lv_str}", t3, bg).pack(fill='x')
+                    mouth_bn, mouth_bs = select_best_bait_by_mouth(fish['m'], lvl)
 
-                # === Col3: 鱼钩 (3行) ===
+                    def bait_name(full_name):
+                        parts = full_name.split(' · ', 1)
+                        return parts[1] if len(parts) > 1 else full_name
+
+                    def bait_level(full_name):
+                        for bait in BAITS:
+                            if bait['n'] == full_name:
+                                return bait['lv'] if bait.get('lv') else None
+                        return None
+
+                    b_lv = bait_level(bn)
+                    mouth_lv = bait_level(mouth_bn)
+                    b_lv_str = f" · Lv.{b_lv}" if b_lv else ""
+                    mouth_lv_str = f" · Lv.{mouth_lv}" if mouth_lv else ""
+                    # 第1、2行：沿用鱼种真饵类型偏好的最佳饵
+                    mk(c2, bait_name(bn), tg, bg).pack(fill='x')
+                    mk(c2, f"匹配 {bs*100:.0f}%{b_lv_str}", tg, bg).pack(fill='x')
+                    # 第3、4行：只按鱼口尺寸选择最佳饵，忽略类型偏好
+                    mk(c2, bait_name(mouth_bn), tg, bg).pack(fill='x')
+                    mk(c2, f"匹配 {mouth_bs*100:.0f}%{mouth_lv_str}", t3, bg).pack(fill='x')
+
+                # === Col3: 鱼钩 (4行) ===
                 c3 = tk.Frame(card, bg=bg)
                 c3.grid(row=row_idx, column=2, sticky='nsew', padx=gap, pady=3)
                 bh, bhs = None, -1
@@ -498,8 +524,9 @@ class CalculatorApp:
                     mk(c3, '—', t2, bg).pack(fill='x')
                     mk(c3, '', tg, bg).pack(fill='x')
                     mk(c3, '', t3, bg).pack(fill='x')
+                mk(c3, '', t3, bg).pack(fill='x')
 
-                # === Col4: 装备参数 (3行) ===
+                # === Col4: 装备参数 (4行) ===
                 c4 = tk.Frame(card, bg=bg)
                 c4.grid(row=row_idx, column=3, sticky='nsew', pady=3)
                 ld = line_depth(reg['d'], fish['l'], rod)
@@ -522,6 +549,7 @@ class CalculatorApp:
                     mk(c4, '—', t2, bg).pack(fill='x')
                     mk(c4, '—', t2, bg).pack(fill='x')
                     mk(c4, '—', t2, bg).pack(fill='x')
+                mk(c4, '', t3, bg).pack(fill='x')
 
                 row_idx += 1
 
